@@ -12,8 +12,8 @@ jobs:
 
 
     steps:
-      - name: 'Testing Githhub action'
-        run: pwd
+      - name: 'printing folder'
+        run: ls
 
       - name: 'Testing Printing'
         run: echo Test
