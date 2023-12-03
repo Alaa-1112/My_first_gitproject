@@ -16,6 +16,6 @@ jobs:
         run: ls
 
       - uses: actions/checkout@v3
-
-      - name: ' after printing folder'
-        run: ls
+      - name: ' login to dockerr'
+        run: docker login --username alaa942 --password mzaea1112
+      
