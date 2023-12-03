@@ -12,8 +12,8 @@ jobs:
 
 
     steps:
-      -name: 'Testing Githhub action'
-       run: pwd
+      - name: 'Testing Githhub action'
+        run: pwd
 
-  -name: 'Testing Printing'
-       run: echo Test
+      - name: 'Testing Printing'
+        run: echo Test
